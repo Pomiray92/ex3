@@ -53,13 +53,45 @@ for j in range(1,x+1,1):
 
 '''
 
-#task4es
+#task4ex3
 
 # prime number: ein zahl die durch sich selbst oder
 # durch einz teilbar ist.
 # 
-
+'''
 x = int(input("Enter a prime number: "))
-for i in range(0,x):
-    if x % i != 0:
-        print(x)
+s = True
+for i in range(2,x):
+    if x % i == 0:
+        s = False
+if s == True:
+    print(x, "is a prime number")
+else:
+    print(x, "is not a prime number")
+'''
+
+#task5ex3
+
+'''
+
+for i in range(100):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz") 
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz") 
+    else:
+        print(i)
+
+'''
+
+#Task6ex3
+
+'''
+
+for i in range(1000, 2001):
+    if i % 7 == 0 and i % 5 != 0:
+        print(i) 
+
+'''
