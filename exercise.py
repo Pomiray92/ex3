@@ -57,8 +57,11 @@ for j in range(1,x+1,1):
 
 # prime number: ein zahl die durch sich selbst oder
 # durch einz teilbar ist.
-# 
+
+
 '''
+
+
 x = int(input("Enter a prime number: "))
 s = True
 for i in range(2,x):
@@ -68,6 +71,8 @@ if s == True:
     print(x, "is a prime number")
 else:
     print(x, "is not a prime number")
+
+
 '''
 
 #task5ex3
@@ -88,10 +93,9 @@ for i in range(100):
 
 #Task6ex3
 
-'''
+
 
 for i in range(1000, 2001):
     if i % 7 == 0 and i % 5 != 0:
         print(i) 
 
-'''
