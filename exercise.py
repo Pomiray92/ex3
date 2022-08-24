@@ -124,8 +124,17 @@ for i in range(100):
 
 
 
+from curses import def_shell_mode
+
+
 for i in range(1000, 2001):
 
     if i % 7 == 0 and i % 5 != 0:
         print(i) 
 
+text = "Berlin is a world city of culture, politics, media and science."
+kj def_shell_mode ds 
+d sd sd
+ ds 
+ sd
+  
