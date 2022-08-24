@@ -122,7 +122,7 @@ for i in range(100):
 
 #Task6ex3
 
-
+print("""Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau.""")
 
 from curses import def_shell_mode
 
@@ -133,8 +133,3 @@ for i in range(1000, 2001):
         print(i) 
 
 text = "Berlin is a world city of culture, politics, media and science."
-kj def_shell_mode ds 
-d sd sd
- ds 
- sd
-  
